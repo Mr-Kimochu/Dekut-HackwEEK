@@ -1,0 +1,99 @@
+
+.navItem {
+  margin-right: 40px;
+  color: #fff !important;
+
+}
+.navItem:last-child{
+  margin-right: 0;
+}
+.navList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  width: 90%;
+}
+.branding {
+  /* text-align: center; */
+  text-align: left;
+  position: absolute;
+  left: 10px;
+  width: 800px;
+  /* padding: 10px; */
+  color: rgb(161, 225, 161);
+}
+  
+.branding h1 {
+  font-size: 5em;
+  margin-top: 200px;
+  margin-bottom: 0%;
+}
+
+.branding p {
+  /* margin-top: 10px; */
+  font-size: 2em;
+}
+.profile_img{
+  width: 100px; /* Adjust the image width as needed */
+  height: 100px;
+}
+.projectDetails {
+  background-color: #f2f2f2; /* Set the background color for the projects section */
+  padding: 20px;
+  overflow-x: auto; /* Enable horizontal scrolling for overflow content */
+  white-space: nowrap; /* Prevent line breaks for the project rows */
+  height: 800px;
+  width: 1200px;
+  margin-left: 40px;
+  text-align: left;
+  position: absolute;
+  left: 260px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  
+}
+.btn{
+  background-color: #ff6a6a;
+  text-align: right;
+  position: absolute;
+  right: 20px;
+}
+.map{
+  width: 600px;
+  height: 100vh;
+  text-align: right;
+  position: absolute;
+  right: 10px;
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
+.button1 {
+  background-color: #0ac37f; 
+  color: black; 
+  border: 2px solid #04AA6D;
+  border: none;
+  border-radius: 10px;
+  padding: 16px 32px;
+  /* text-align: center; */
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  /* margin: 4px 2px; */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-align: right;
+  position: absolute;
+  right: 200px;
+  bottom: 100px;
+}
+.button1:hover {
+  background-color: #158b60;
+  color: white;
+}

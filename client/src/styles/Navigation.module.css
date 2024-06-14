@@ -1,0 +1,56 @@
+/* Navigation.module.css */
+.navigation {
+    position: relative;
+    
+  }
+  
+  .hamburger {
+    cursor: pointer;
+    padding: 0px;
+    position: absolute;
+    left: 10px;
+    font-size: 28px; /* Increase the size of the hamburger icon */
+    z-index: 1; /* Ensure the hamburger icon is in front of the navigation */
+  }
+  
+  .closeicon {
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    left: 10px;
+    font-size: 24px; /* Increase the size of the close icon */
+    z-index: 1; /* Ensure the close icon is in front of the navigation */
+    display: none; /* Initially hide the close icon */
+  }
+  
+  nav {
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    height: 150vh;
+    transition: 0.3s;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  nav ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav ul li {
+    padding: 30px;
+    border-bottom: 1px solid #555;
+  }
+  
+  .nav-open {
+    width: 250px;
+  }
+  
+  .nav-closed {
+    width: 0;
+    overflow: hidden;
+  }
+  

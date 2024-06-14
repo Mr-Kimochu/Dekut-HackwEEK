@@ -1,0 +1,67 @@
+.carbonprices {
+    margin-top: 300px;
+    height: 400px;
+    width: 1000px;
+    text-align: right;
+    position: absolute;
+    right: 180px;
+  }
+  
+
+  .greet{
+    text-align: left;
+    position: absolute;
+    left: 260px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  /* CreditsContainer.module.css */
+
+.creditscontainer {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgreen;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    margin-right: 20px;
+  }
+
+.creditscontainer1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgreen;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+  }
+
+.creditscontainer2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgreen;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .creditssection {
+    text-align: center;
+    flex: 2;
+    padding: 10px;
+    
+  }
+  .data{
+    text-align: left;
+    position: absolute;
+    left: 260px;
+    margin-top: 50px;
+  }
+  
+  .whole{
+    height: 100vh;
+  }
+  
